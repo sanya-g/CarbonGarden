@@ -102,7 +102,7 @@ function updateResult() {
   }
 }
 
-export(middleCarbonFootprintScore, highCarbonFootprintScore);
+export {middleCarbonFootprintScore, highCarbonFootprintScore};
 //localStorage.setItem("lOWLocalStorage", lowCarbonFootprintScore); 
 //localStorage.setItem("mIDDLELocalStorage", middleCarbonFootprintScore); 
 //localStorage.setItem("hIGHLocalStorage", highCarbonFootprintScore); 
