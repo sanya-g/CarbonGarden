@@ -3,6 +3,8 @@ font-family: 'Montserrat', sans-serif;
   background-color: #fcffff ;
 }
 
+
+
 #aboutus-container{
   width: 40%;
   margin-top: 5%;
@@ -231,5 +233,5 @@ button a{
 
 #aboutus-pdiv{
   width: 60%;
-  
+  margin: auto;
 }

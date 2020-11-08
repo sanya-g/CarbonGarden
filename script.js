@@ -93,8 +93,8 @@ function updateResult() {
     document.getElementById("plant6").style.visibility = hidden;
   } else if(highCarbonFootprintScore >= 4) {
     result.innerHTML = "You have a high carbon footprint!";
-    document.getElementById("plant3").style.visibility = hidden;
-    document.getElementById("plant4").style.visibility = hidden;
+    document.getElementById("plant3").style.visibility = "hidden";
+    document.getElementById("plant4").style.visibility = "hidden";
     document.getElementById("plant5").style.visibility = hidden;
     document.getElementById("plant6").style.visiblity = hidden;
   } else {
