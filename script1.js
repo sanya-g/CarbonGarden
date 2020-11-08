@@ -10,7 +10,7 @@
 //middleCarbonFootprint = Number(lOWLS);
 //highCarbonFootprint = Number(hIGHLS);
 
-import(middleCarbonFootprintScore, highCarbonFootprintScore) from './script.js';
+import {middleCarbonFootprintScore, highCarbonFootprintScore} from './script.js';
 
 if (middleCarbonFootprintScore >= 4) {
     document.getElementById("plant4").style.display = "hidden";
