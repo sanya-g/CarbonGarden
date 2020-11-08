@@ -87,35 +87,17 @@ function highCarbonFootprint() {
 function updateResult() {
   if (lowCarbonFootprintScore >= 4) {
     result.innerHTML = "You have a low carbon footprint!";
-    "plant5".a {
-      visibility: hidden;
-    }   
   } else if (middleCarbonFootprintScore >= 4) {
     result.innerHTML = "You have an average carbon footprint!";
+    document.getElementById("plant4").style.visibility = hidden;
+    document.getElementById("plant6").style.visibility = hidden;
   } else if(highCarbonFootprintScore >= 4) {
     result.innerHTML = "You have a high carbon footprint!";
-    "plant4".a {
-      visibility: hidden;
-    } 
-    "plant5".a {
-      visibility: hidden;
-    } 
-    "plant6".a {
-      visibility: hidden;
-    } 
+    document.getElementById("plant3").style.visibility = hidden;
+    document.getElementById("plant4").style.visibility = hidden;
+    document.getElementById("plant5").style.visibility = hidden;
+    document.getElementById("plant6").style.visiblity = hidden;
   } else {
     result.innerHTML = "Your carbon footprint could not be determined. Try again!";
-    "plant3".a {
-      visibility: hidden;
-    } 
-    "plant4".a {
-      visibility: hidden;
-    } 
-    "plant5".a {
-      visibility: hidden;
-    } 
-    "plant6".a {
-      visibility: hidden;
-    } 
   }
 }
