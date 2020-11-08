@@ -5,7 +5,7 @@ var hIGHLS = localStorage.getItem("hIGHLocalStorage");
 middleCarbonFootprint = Number(lOWLS);
 highCarbonFootprint = Number(hIGHLS);
 
-if (middleCarbonFootprint= >= 4) {
+if (middleCarbonFootprint >= 4) {
     document.getElementById("plant4").style.display = "hidden";
     document.getElementById("plant6").style.display = "hidden";
   } else if(highCarbonFootprint >= 4) {
