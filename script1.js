@@ -1,8 +1,14 @@
+var lOWLS = localStorage.getItem("lOWLocalStorage");
+var mIDDLELS = localStorage.getItem("mIDDLELocalStorage");
+var hIGHLS = localStorage.getItem("hIGHLocalStorage");
 
-  if (middleCarbonFootprintScore >= 4) {
+middleCarbonFootprint = Number(lOWLS);
+highCarbonFootprint = Number(hIGHLS);
+
+if (middleCarbonFootprint= >= 4) {
     document.getElementById("plant4").style.display = "hidden";
     document.getElementById("plant6").style.display = "hidden";
-  } else if(highCarbonFootprintScore >= 4) {
+  } else if(highCarbonFootprint >= 4) {
     document.getElementById("plant3").style.display = 'none';
     document.getElementById("plant4").style.display = 'none';
     document.getElementById("plant5").style.display = 'none';
