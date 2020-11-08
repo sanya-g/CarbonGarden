@@ -9,7 +9,6 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <script src="script.js"></script>
     
      <div class="navbar">
       <div class="navbar-links">
@@ -32,19 +31,21 @@
     <button id="next">Next Question</button>
     <button id="submit">Submit Quiz</button>
     <div id="results"></div> -->
-    <h2>How many people do you live with?</h2>
-    <div class="question">
-      <div class="answer-choice">
-        <br>
-        <button id="q1a1">0-1</button>
-      </div>
-      <div class="answer-choice">
-        <br>
-        <button id="q1a2">2-4</button>
-      </div>
-      <div class="answer-choice">
-        <br>
-        <button id="q1a3">5-more</button>
+    <div id="question1">
+      <h2>How many people do you live with?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <br>
+          <button id="q1a1">0-1</button>
+        </div>
+        <div class="answer-choice">
+          <br>
+          <button id="q1a2">2-4</button>
+        </div>
+        <div class="answer-choice">
+          <br>
+          <button id="q1a3">5-more</button>
+        </div>
       </div>
     </div> 
     
@@ -147,7 +148,12 @@
     <div class="result">
       <h2 id="result">result: </h2>
     </div>
+
+    <button><a href="garden.html">Let's go to my garden!</a></button><!--make this only visible when the result
+    is visible-->
+
   </body>
 </html>
+    <script src="script.js"></script>
       </body>
 </html>
