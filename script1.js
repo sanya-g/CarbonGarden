@@ -1,6 +1,11 @@
-var lOWLS = localStorage.getItem("lOWLocalStorage");
-var mIDDLELS = localStorage.getItem("mIDDLELocalStorage");
-var hIGHLS = localStorage.getItem("hIGHLocalStorage");
+//var lOWLS = localStorage.getItem("lOWLocalStorage");
+//var mIDDLELS = localStorage.getItem("mIDDLELocalStorage");
+//var hIGHLS = localStorage.getItem("hIGHLocalStorage");
+
+var number = 123;  
+localStorage.setItem("lOWLS", number);  
+var value = localStorage.getItem("lOWLS"); 
+var middleCarbonFootprint = Number(value);  
 
 middleCarbonFootprint = Number(lOWLS);
 highCarbonFootprint = Number(hIGHLS);
