@@ -101,3 +101,8 @@ function updateResult() {
     result.innerHTML = "Your carbon footprint could not be determined. Try again!";
   }
 }
+// function plantImages() {
+ // if (middleCarbonFootprintScore >= 4) {
+  //  result.innerHTML=document.getElementById("plant4").style.visibility= hidden;
+  //}
+//}

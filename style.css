@@ -131,7 +131,8 @@ h1{
   display: block;
   margin-bottom: 10px;
 }
-button{
+
+button, button a:visited{
 	font-size: 22px;
 	background-color: #279;
 	color: #fff;
@@ -153,6 +154,10 @@ button:hover{
 	background-color: #38a;
   -webkit-transform: scale(1.15); 
   transform: scale(1.15); 
+}
+
+button a, button a:hover {
+  background-color: transparent;
 }
 
 .slide{
@@ -217,4 +222,14 @@ button:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+button a{
+  background-color: #279;
+	color: #fff;
+}
+
+#aboutus-pdiv{
+  width: 60%;
+  
 }
